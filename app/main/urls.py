@@ -21,7 +21,7 @@ from drf import views
 router = routers.DefaultRouter()
 router.register(r'users', views.User_Viewset)
 router.register(r'groups', views.Group_Viewset)
-router.register(r'bank', views.Bank_Viewset)
+router.register(r'banks', views.Bank_Viewset)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
